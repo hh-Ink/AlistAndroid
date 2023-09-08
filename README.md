@@ -1,7 +1,6 @@
 [![Release](https://github.com/jing332/AlistAndroid/actions/workflows/release.yaml/badge.svg)](https://github.com/jing332/AlistAndroid/actions/workflows/release.yaml)
 [![Test](https://github.com/jing332/AlistAndroid/actions/workflows/build.yaml/badge.svg)](https://github.com/jing332/AlistAndroid/actions/workflows/build.yaml)
 [![CheckAList](https://github.com/jing332/AlistAndroid/actions/workflows/sync_alist.yaml/badge.svg)](https://github.com/jing332/AlistAndroid/actions/workflows/sync_alist.yaml)
-Fork自https://github.com/jing332/AlistAndroid 我弄了一下自动编译发布  由于缺少作者的签名 换了个签名
 #### 🚩　[FRP](https://github.com/fatedier/frp) 安卓版本：https://github.com/jing332/FrpAndroid
 
 # AlistAndroid
@@ -42,4 +41,7 @@ chmod +x *.sh
 ./install_aar.sh
 ```
 > More: https://github.com/jing332/file/blob/main/android_repo_build.md
+>
+> Fork自https://github.com/jing332/AlistAndroid 我弄了一下自动编译发布  由于缺少作者的签名 换了个签名
+
 
