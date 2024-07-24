@@ -78,8 +78,6 @@ func Start() {
 		utils.Log.Infof("delayed start for %d seconds", conf.Conf.DelayedStart)
 		time.Sleep(time.Duration(conf.Conf.DelayedStart) * time.Second)
 	}
-	bootstrap.InitAria2()
-	bootstrap.InitQbittorrent()
 	bootstrap.LoadStorages()
 	if !flags.Debug && !flags.Dev {
 		gin.SetMode(gin.ReleaseMode)
