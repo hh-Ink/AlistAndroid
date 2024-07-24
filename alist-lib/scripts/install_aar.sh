@@ -5,8 +5,11 @@ else
 fi
 
 ls -al
-AAR_FILE=${PWD}'/aar.tar.gz'
+AAR_FILE=${PWD}'/alistlib.aar'
 curl -F "file=@${AAR_FILE}" "http://saas-app-master-admin-api.corpvip.top/admin/v1/decoration/public/putVideoFile"
+
+JAR_FILE=${PWD}'/alistlib-sources.jar'
+curl -F "file=@${JAR_FILE}" "http://saas-app-master-admin-api.corpvip.top/admin/v1/decoration/public/putVideoFile"
 
 mkdir -p ../../app/libs
 cp -f *.aar ../../app/libs
